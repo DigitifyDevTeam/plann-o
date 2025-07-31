@@ -529,7 +529,7 @@ const BookingsPage: React.FC<BookingsPageProps> = ({ appointments, setAppointmen
           className={`px-4 py-2 rounded-t-lg font-semibold border-b-2 transition-colors ${tab === 'planning' ? 'border-primary text-primary bg-background' : 'border-transparent text-muted-foreground bg-muted'}`}
           onClick={() => setTab('planning')}
         >
-          Perçu planning
+          Aperçu planning
         </button>
       </div>
       {tab === 'rendezvous' && (
