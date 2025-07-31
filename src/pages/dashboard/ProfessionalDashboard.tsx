@@ -588,7 +588,7 @@ const BookingsPage: React.FC<BookingsPageProps> = ({ appointments, setAppointmen
       )}
       {tab === 'planning' && (
         <>
-          <h1 className="text-3xl font-bold">Perçu planning</h1>
+          <h1 className="text-3xl font-bold">Aperçu planning</h1>
           <p className="text-muted-foreground mb-4">Visualisez votre planning global, vos absences et jours fériés.</p>
           <div className="bg-card text-card-foreground p-6 rounded-lg border">
             <InteractiveCalendar confirmedAppointments={appointments.filter(a => a.status === 'confirmed')} joursAbsence={joursAbsence} joursFeries={joursFeries} />
